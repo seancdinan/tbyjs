@@ -1,2 +1,2 @@
 # tbyjs
-Making a super simple framework to practice constructors and such.
+// A simple library to abstract and simplify chunks of javascript that I'm frequently writing.
