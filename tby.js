@@ -19,3 +19,14 @@ TBY.make = function(type, name, properties, inner) {
 	return this.element
 };
 
+Tby.cirle = function(name, radius, color, properties){
+	this.element = document.createElement('div');
+	this.element.id = name;
+	this.style.borderRadius = '50%';
+	this.style.backgroundColor = color;
+	for (var i in properties){
+		this.element.style[i] properties[i];
+	}
+	return this.element
+};
+
